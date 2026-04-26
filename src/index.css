@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .drama-text {
+    @apply font-drama italic text-champagne;
+  }
+}
+
+/* Global noise overlay */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.05;
+}
+
+/* Magnetic Button Hover Implementation */
+.btn-magnetic {
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-magnetic:hover {
+  transform: scale(1.03);
+}
+
+.btn-magnetic .hover-bg {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+.btn-magnetic:hover .hover-bg {
+  transform: translateX(100%);
+}
+
+.btn-content {
+  position: relative;
+  z-index: 1;
+}
+
+.link-hover {
+  transition: transform 0.2s ease, color 0.2s ease;
+  display: inline-block;
+}
+
+.link-hover:hover {
+  transform: translateY(-1px);
+  @apply text-champagne;
+}
