@@ -1,16 +1,65 @@
-# React + Vite
+# Costera
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Live Demo:** [https://costera.netlify.app/](https://costera.netlify.app/)
 
-Currently, two official plugins are available:
+Costera helps companies eliminate waste, optimize cloud spend, and turn infrastructure into a financial advantage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Costera is a cloud FinOps platform designed to provide **visibility, control, and optimization** over cloud infrastructure costs.
 
-## Expanding the ESLint configuration
+Modern teams overspend on cloud services due to lack of insight and financial discipline. Costera bridges that gap by combining **cost monitoring, analytics, and actionable optimization strategies**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Mission
+
+To eliminate inefficient cloud spending and enforce financial discipline across modern tech stacks.
+
+---
+
+## 🌍 Vision
+
+A world where every cloud dollar is accountable, optimized, and justified.
+
+---
+
+## 💻 Tech Stack
+
+- **Framework:** React 19 + Vite
+- **Styling:** Tailwind CSS v3.4.17
+- **Animations:** GSAP 3 + ScrollTrigger
+- **Icons:** Lucide React
+
+---
+
+## 🛠️ Getting Started
+
+To run Costera locally, follow these steps:
+
+1. **Clone the repository** (if applicable):
+   ```bash
+   git clone <repository-url>
+   cd Costera
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser:**
+   Navigate to `http://localhost:5173/` (or the port specified by Vite).
+
+---
+
+## 📜 License
+
+&copy; 2026 Costera Inc. All rights reserved.
