@@ -1,4 +1,6 @@
-# Costera
+# Costera - FinOps Dashboard
+
+![Costera Landing Page](public/costera-langing-page.png) *(Preview of the landing page)*
 
 🚀 **Live Demo:** [https://costera.netlify.app/](https://costera.netlify.app/)
 
