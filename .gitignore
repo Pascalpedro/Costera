@@ -3,12 +3,25 @@
 *.bkp
 bkb/
 bkp/
+
+#AI Development Artifacts
 .agent
 .agent/*
 .antigravity
 .antigravity/*
 .gemini
 .gemini/*
+GEMINI.md
+CLAUDE.md
+AGENTS.md
+gemini.md
+claude.md
+agents.md
+implementation-plan.md
+implementation_plan.md
+task.md
+walkthrough.md
+audit_report.md
 .DS_Store
 .DS_Store/*
 
@@ -65,3 +78,8 @@ node_modules/
 build/
 dist/
 npm-debug.log
+
+# Next.js
+.next/
+out/
+
